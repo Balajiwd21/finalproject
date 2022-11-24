@@ -1,0 +1,44 @@
+
+<div class="contents1">
+    <mat-toolbar class="contents" color=""> 
+     <nav>
+       <img src="assets/5.png" class="logo" >
+   </nav>
+       
+     
+     <div class="nab">
+         <!-- <a class="text-white" href="#home">Home</a>&nbsp;&nbsp;&nbsp;
+         <a class="text-white"href="#service">Service</a>&nbsp;&nbsp;&nbsp;
+         <a class="text-white"href="#about">About</a>&nbsp;&nbsp;&nbsp;
+         <a class="text-white"href="#gallery">Gallery</a>&nbsp;&nbsp;&nbsp;
+         <a class="text-white"href="#price">Price</a>&nbsp;&nbsp;&nbsp;
+         <a class="text-white"href="#review">Review</a>&nbsp;&nbsp;&nbsp; -->
+      
+   
+               <button routerLink="/cart"class="btn"style="background:rgb(33,33,33)">
+               <i style="font-size:20px; background:rgb(33,33,33);color: white;" class="far fa-envelope"></i>      
+                 <div style="font-size:10px;"class="badge bg-danger">{{totalItem}}</div>        
+               </button>  &nbsp;&nbsp;
+           
+       <ng-container *ngIf="authService.currentUser$ | async as user; else loginButton">
+         <button class="login-button"[matMenuTriggerFor]="userMenu">  <mat-icon>face</mat-icon>
+          <b> {{user.displayName}}</b>
+           <mat-icon>expand_more</mat-icon>
+          </button>
+         
+         </ng-container>
+       <ng-template #loginButton>
+         <button class="login-button" (click)="openDialog()"> <mat-icon>account_circle</mat-icon><b>Login</b> </button>
+     
+       </ng-template>
+     </div>
+      </mat-toolbar> 
+   </div>  
+     <mat-menu #userMenu="matMenu">
+       <button mat-menu-item (click)="logout()">
+         <mat-icon>logout</mat-icon>
+         Logout
+       </button>
+     </mat-menu>
+   
+   

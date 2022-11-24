@@ -1,0 +1,40 @@
+.contents{
+    justify-content: space-between;
+  }
+   
+  .contents1{
+    position: static;
+    color: rgb(240,240,240);
+    
+  }
+  .login-button {
+    background-color: rgb(33,33,33);
+    margin-top: 8%;
+    border-radius: 20px;
+  }
+  /*
+  .contents1 .logo {
+    color: rgb(240,240,240);
+    font-size: 30px;
+  }
+  .contents1 .logo span{
+    color:#3867d6;
+  }
+  .nab{
+    font-size: 20px;
+    margin-bottom: 3%;
+    color: rgb(240,240,240);
+    
+  }
+  .nab .btn{
+    color: blue;
+
+  }
+   */
+  nav .logo{
+    width: 180px;
+  }
+  
+  
+  
+  

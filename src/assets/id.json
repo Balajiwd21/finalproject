@@ -1,0 +1,96 @@
+[
+{
+"title":"For Birthday",
+"price":5000,
+"image":"../assets/slide-1.jpg",
+"description":"full services",
+"description1":"decorations",
+"description2":"music and photos",
+"description3":"food and drinks",
+"description4":"invitation card"
+
+},
+
+{
+"title":"For Wedding",
+"price":9000,
+"image":"../assets/10.jpg",
+"description":"full services",
+"description1":"decorations",
+"description2":"music and photos",
+"description3":"food and drinks",
+"description4":"invitation card"
+},
+
+{
+"title":"For Concert",
+"price":7000,
+"image":"../assets/12.jpg",
+"description":"full services",
+"description1":"decorations",
+"description2":"music and photos",
+"description3":"food and drinks",
+"description4":"invitation card"
+},
+
+{
+    "title":"Product Launch Events",
+    "price":10000,
+    "image":"../assets/p1.jpg",
+    "description":"full services",
+    "description1":"decorations",
+    "description2":"music and photos",
+    "description3":"food and drinks",
+    "description4":"invitation card"
+    },
+    {
+    "title":"Conference Metting",
+    "price":6500,
+    "image":"../assets/con1.jpg",
+    "description":"full services",
+    "description1":"decorations",
+    "description2":"music and photos",
+    "description3":"food and drinks",
+    "description4":"invitation card"
+    },
+    {
+        "title":"Workshop",
+        "price":5000,
+        "image":"../assets/workshop.jpg",
+        "description":"full services",
+        "description1":"decorations",
+        "description2":"music and photos",
+        "description3":"food and drinks",
+        "description4":"invitation card"
+        },
+        {
+            "title":"Re-Union",
+            "price":8000,
+            "image":"../assets/reunion.jpg",
+            "description":"full services",
+            "description1":"decorations",
+            "description2":"music and photos",
+            "description3":"food and drinks",
+            "description4":"invitation card"
+            },
+            {
+                "title":"Galla Dinners",
+                "price":16000,
+                "image":"../assets/gala.jpg",
+                "description":"full services",
+                "description1":"decorations",
+                "description2":"music and photos",
+                "description3":"food and drinks",
+                "description4":"invitation card"
+                },
+    {
+    "title":"Custom",
+    "price":10000,
+    "image":"../assets/custom.png",
+    "description":"full services",
+    "description1":"decorations",
+    "description2":"music and photos",
+    "description3":"food and drinks",
+    "description4":"invitation card"
+    }
+]
